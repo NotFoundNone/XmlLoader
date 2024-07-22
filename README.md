@@ -1,6 +1,6 @@
 # XmlLoader
 
-XmlLoader is a versatile and efficient library designed to simplify the process of loading and parsing XML data in your applications. Whether you are dealing with simple XML files or complex nested structures, XmlLoader provides an intuitive API to make XML handling easy and seamless.
+XmlLoader is a project designed to handle XML data loading into a relational database.
 
 ## Project Structure
 

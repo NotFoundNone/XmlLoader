@@ -28,7 +28,7 @@ def process_response(cur, return_element):
         "wid": parse_element_text(return_element, 'wid', data_type=int)
     }
 
-    response_id = insert_into_table(cur, 'response', response_data, returning_id=True)
+    response_id = insert_into_table(cur, 'apvo2_response', response_data, returning_id=True)
 
     for personal_element in return_element.findall('.//personal'):
         process_personal(cur, personal_element, response_id)

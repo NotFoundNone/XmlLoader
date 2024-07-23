@@ -915,3 +915,920 @@ DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3456) already exists.
 2024-07-22 20:35:26,284 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
 DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
 
+2024-07-23 20:23:14,868 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:14,874 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Кузнецов Р. Е., 41818282) already exists.
+
+2024-07-23 20:23:14,877 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:14,880 - ERROR - Ошибка обработки return_element: date/time field value out of range: "29.02.2024 18:50:00"
+LINE 1: ...) VALUES (8, 0, 1, 2199, 120, 3841, 78469, 78469, '29.02.202...
+                                                             ^
+HINT:  Perhaps you need a different "datestyle" setting.
+
+2024-07-23 20:23:14,884 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:14,889 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Малиновский П. В., 40225320) already exists.
+
+2024-07-23 20:23:14,893 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:14,896 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:14,904 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(798, 796) already exists.
+
+2024-07-23 20:23:14,907 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:14,911 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:14,920 - ERROR - Ошибка обработки return_element: time zone displacement out of range: "01.03.2024-18:20"
+LINE 1: ...ype_tech_id, type_tech_name, work_id) VALUES (19, '01.03.202...
+                                                             ^
+
+2024-07-23 20:23:14,924 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:14,927 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:14,935 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:14,940 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:14,943 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:14,946 - ERROR - Ошибка обработки return_element: time zone displacement out of range: "29.02.2024-23:00"
+LINE 1: ...ch_name, work_id) VALUES (26, '01.03.2024-01:00', '29.02.202...
+                                                             ^
+
+2024-07-23 20:23:14,950 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:14,953 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:14,956 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:14,961 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:14,966 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:14,970 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:14,983 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:14,986 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Кузнецов Р. Е., 41818282) already exists.
+
+2024-07-23 20:23:14,992 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,002 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,006 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,009 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,017 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,020 - ERROR - Ошибка обработки return_element: date/time field value out of range: "29.02.2024 16:50:00"
+LINE 1: ... VALUES (43, 0, 1, 2199, 120, 3841, 78469, 78469, '29.02.202...
+                                                             ^
+HINT:  Perhaps you need a different "datestyle" setting.
+
+2024-07-23 20:23:15,023 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3462) already exists.
+
+2024-07-23 20:23:15,025 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,039 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,043 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,046 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,049 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,055 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,059 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,062 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,064 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Малиновский П. В., 40225320) already exists.
+
+2024-07-23 20:23:15,067 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,071 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,074 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,079 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,082 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3456) already exists.
+
+2024-07-23 20:23:15,085 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(839, комплект, 3592) already exists.
+
+2024-07-23 20:23:15,088 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,091 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,092 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Козачок А. К., 1345850) already exists.
+
+2024-07-23 20:23:15,097 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,103 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,106 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,111 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,118 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,121 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,138 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,143 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,146 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,150 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,152 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,156 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,159 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,163 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,166 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,169 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,172 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,176 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(1386, Концы шпал, 3477) already exists.
+
+2024-07-23 20:23:15,179 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,182 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,185 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,188 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,191 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,194 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,197 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,200 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+
+2024-07-23 20:23:15,204 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,207 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,211 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,222 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,225 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,228 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,232 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,237 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 702046) already exists.
+
+2024-07-23 20:23:15,238 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Козачок А. К., 1345850) already exists.
+
+2024-07-23 20:23:15,241 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,245 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,250 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,253 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,256 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,260 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,263 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,267 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,270 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,274 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,277 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(385, 0) already exists.
+
+2024-07-23 20:23:15,281 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,285 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,288 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,292 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,295 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3456) already exists.
+
+2024-07-23 20:23:15,298 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+
+2024-07-23 20:23:15,304 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,309 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+
+2024-07-23 20:23:15,316 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,322 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,326 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,330 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,335 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,339 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+
+2024-07-23 20:23:15,343 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,347 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,353 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,357 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,362 - ERROR - Ошибка обработки return_element: time zone displacement out of range: "01.03.2024-21:00"
+LINE 1: ...pe_tech_id, type_tech_name, work_id) VALUES (132, '01.03.202...
+                                                             ^
+
+2024-07-23 20:23:15,366 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,369 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,374 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3596) already exists.
+
+2024-07-23 20:23:15,378 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,387 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,393 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Архипов С. А., 43039499) already exists.
+
+2024-07-23 20:23:15,398 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,402 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,405 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,409 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,413 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3448) already exists.
+
+2024-07-23 20:23:15,417 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,422 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,425 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,428 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,432 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,436 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,439 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,442 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,444 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(1, 0) already exists.
+
+2024-07-23 20:23:15,447 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,451 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,454 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,458 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,461 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,465 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,468 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,471 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,475 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,489 - ERROR - Ошибка обработки return_element: time zone displacement out of range: "29.02.2024-22:00"
+LINE 1: ...h_name, work_id) VALUES (165, '01.03.2024-04:00', '29.02.202...
+                                                             ^
+
+2024-07-23 20:23:15,491 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(1101, 0) already exists.
+
+2024-07-23 20:23:15,496 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,499 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,503 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,508 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,513 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,520 - ERROR - Ошибка обработки return_element: time zone displacement out of range: "01.03.2024-19:40"
+LINE 1: ...pe_tech_id, type_tech_name, work_id) VALUES (172, '01.03.202...
+                                                             ^
+
+2024-07-23 20:23:15,522 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(385, 0) already exists.
+
+2024-07-23 20:23:15,527 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,529 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(13, 1, II) already exists.
+
+2024-07-23 20:23:15,532 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, I) already exists.
+
+2024-07-23 20:23:15,539 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,543 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,547 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,549 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(22202, 0) already exists.
+
+2024-07-23 20:23:15,553 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,555 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(791, 0) already exists.
+
+2024-07-23 20:23:15,558 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+
+2024-07-23 20:23:15,561 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,564 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+
+2024-07-23 20:23:15,566 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,569 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(8, Километр, 3465) already exists.
+
+2024-07-23 20:23:15,574 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,578 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,582 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,585 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,588 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,591 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,595 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,599 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,600 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Прошляков А. Г., 1272218) already exists.
+
+2024-07-23 20:23:15,603 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,606 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,609 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,612 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,616 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,619 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,624 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,630 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 26) already exists.
+
+2024-07-23 20:23:15,635 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 2) already exists.
+
+2024-07-23 20:23:15,643 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, I) already exists.
+
+2024-07-23 20:23:15,646 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,649 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, I) already exists.
+
+2024-07-23 20:23:15,652 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,657 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,660 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,663 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,667 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,671 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+
+2024-07-23 20:23:15,673 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(385, 0) already exists.
+
+2024-07-23 20:23:15,675 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(385, 0) already exists.
+
+2024-07-23 20:23:15,678 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,683 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,686 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,689 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,698 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,702 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,706 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+
+2024-07-23 20:23:15,709 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,712 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,715 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,718 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3456) already exists.
+
+2024-07-23 20:23:15,720 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(119, 0) already exists.
+
+2024-07-23 20:23:15,724 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,727 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,730 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+
+2024-07-23 20:23:15,732 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Ермоленко  С. Н., 1272165) already exists.
+
+2024-07-23 20:23:15,735 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,738 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+
+2024-07-23 20:23:15,740 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, I) already exists.
+
+2024-07-23 20:23:15,744 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,746 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, I) already exists.
+
+2024-07-23 20:23:15,749 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3462) already exists.
+
+2024-07-23 20:23:15,752 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,758 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,762 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,764 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, I) already exists.
+
+2024-07-23 20:23:15,768 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3456) already exists.
+
+2024-07-23 20:23:15,772 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,776 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,780 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,785 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,789 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,790 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Шведов В. Е., 38631047) already exists.
+
+2024-07-23 20:23:15,794 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,798 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3465) already exists.
+
+2024-07-23 20:23:15,801 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,803 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Юскин П. В., 41218968) already exists.
+
+2024-07-23 20:23:15,807 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(356, Час, 3444) already exists.
+
+2024-07-23 20:23:15,812 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,815 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,818 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,822 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3456) already exists.
+
+2024-07-23 20:23:15,824 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(385, 0) already exists.
+
+2024-07-23 20:23:15,827 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3456) already exists.
+
+2024-07-23 20:23:15,830 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,834 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,835 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(22202, 0) already exists.
+
+2024-07-23 20:23:15,839 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,843 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,844 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(22202, 0) already exists.
+
+2024-07-23 20:23:15,847 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,851 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,855 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,859 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,861 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, III) already exists.
+
+2024-07-23 20:23:15,864 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,867 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,870 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,874 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(1386, Концы шпал, 3477) already exists.
+
+2024-07-23 20:23:15,877 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3444) already exists.
+
+2024-07-23 20:23:15,880 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,883 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,886 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,890 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3456) already exists.
+
+2024-07-23 20:23:15,893 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,897 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,900 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,902 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(1183, М пути, 706571) already exists.
+
+2024-07-23 20:23:15,907 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,910 - ERROR - Ошибка обработки return_element: date/time field value out of range: "29.02.2024 15:20:00"
+LINE 1: ...40, 3845, 78462, 78462, '01.03.2024 05:20:00', 0, '29.02.202...
+                                                             ^
+HINT:  Perhaps you need a different "datestyle" setting.
+
+2024-07-23 20:23:15,912 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, I) already exists.
+
+2024-07-23 20:23:15,915 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3449) already exists.
+
+2024-07-23 20:23:15,919 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,927 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,930 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,934 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3456) already exists.
+
+2024-07-23 20:23:15,935 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Фляум И. И., 34123349) already exists.
+
+2024-07-23 20:23:15,937 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(385, 0) already exists.
+
+2024-07-23 20:23:15,941 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,943 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,945 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueplaces"
+DETAIL:  Key (stan1_id, stan2_id)=(791, 0) already exists.
+
+2024-07-23 20:23:15,948 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,952 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(1183, М пути, 706571) already exists.
+
+2024-07-23 20:23:15,955 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,958 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,961 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:15,964 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,968 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3462) already exists.
+
+2024-07-23 20:23:15,971 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 4) already exists.
+
+2024-07-23 20:23:15,974 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,978 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,981 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,984 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,987 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3592) already exists.
+
+2024-07-23 20:23:15,991 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:15,994 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:15,997 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+
+2024-07-23 20:23:16,000 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3477) already exists.
+
+2024-07-23 20:23:16,001 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniquepersonal"
+DETAIL:  Key (fio, id_pers)=(Вершинин М. А., 41817811) already exists.
+
+2024-07-23 20:23:16,004 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:16,007 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(6, Метр, 3449) already exists.
+
+2024-07-23 20:23:16,010 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:16,014 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3444) already exists.
+
+2024-07-23 20:23:16,018 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueworks"
+DETAIL:  Key (ei_id, ei_name, repair_id)=(796, Штука, 3456) already exists.
+
+2024-07-23 20:23:16,020 - ERROR - Ошибка обработки return_element: duplicate key value violates unique constraint "uniqueways"
+DETAIL:  Key (kmk, pkk, way_txt)=(-1, -1, 3) already exists.
+

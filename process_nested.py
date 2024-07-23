@@ -8,7 +8,7 @@ def process_personal(cur, personal_element, response_id):
         "id_pers": parse_element_text(personal_element, 'id_pers', data_type=int),
         "pred_id": parse_element_text(personal_element, 'pred_id', data_type=int)
     }
-    insert_into_table(cur, 'personal', personal_data)
+    insert_into_table(cur, 'apvo2_personal', personal_data)
 
 def process_places(cur, places_element, response_id):
     places_data = {
@@ -18,7 +18,7 @@ def process_places(cur, places_element, response_id):
         "stan1_id": parse_element_text(places_element, 'stan1_id', data_type=int),
         "stan2_id": parse_element_text(places_element, 'stan2_id', data_type=int)
     }
-    place_id = insert_into_table(cur, 'places', places_data, returning_id=True)
+    place_id = insert_into_table(cur, 'apvo2_places', places_data, returning_id=True)
 
     for objects_element in places_element.findall('.//objects'):
         objects_data = {
@@ -27,7 +27,7 @@ def process_places(cur, places_element, response_id):
             "id_obj_type": parse_element_text(objects_element, 'id_obj_type', data_type=int),
             "obj_txt": parse_element_text(objects_element, 'obj_txt')
         }
-        insert_into_table(cur, 'objects', objects_data)
+        insert_into_table(cur, 'apvo2_objects', objects_data)
 
     for ways_element in places_element.findall('.//ways'):
         ways_data = {
@@ -40,7 +40,7 @@ def process_places(cur, places_element, response_id):
             "way_txt": parse_element_text(ways_element, 'way_txt'),
             "way_type": parse_element_text(ways_element, 'way_type', data_type=int)
         }
-        insert_into_table(cur, 'ways', ways_data)
+        insert_into_table(cur, 'apvo2_ways', ways_data)
 
 def process_plan_times(cur, plan_times_element, response_id):
     plan_times_data = {
@@ -49,7 +49,7 @@ def process_plan_times(cur, plan_times_element, response_id):
         "kd": parse_element_text(plan_times_element, 'kd'),
         "nd": parse_element_text(plan_times_element, 'nd')
     }
-    insert_into_table(cur, 'plan_times', plan_times_data)
+    insert_into_table(cur, 'apvo2_plan_times', plan_times_data)
 
 def process_trainGraph(cur, trainGraph_element, response_id):
     trainGraph_data = {
@@ -87,7 +87,7 @@ def process_trainGraph(cur, trainGraph_element, response_id):
         "truncateEvenSuburban": parse_element_text(trainGraph_element, 'truncateEvenSuburban', data_type=int),
         "truncateOddSuburban": parse_element_text(trainGraph_element, 'truncateOddSuburban', data_type=int)
     }
-    insert_into_table(cur, 'trainGraph', trainGraph_data)
+    insert_into_table(cur, 'apvo2_trainGraph', trainGraph_data)
 
 def process_locos(cur, locos_element, response_id):
     locos_data = {
@@ -118,7 +118,7 @@ def process_locos(cur, locos_element, response_id):
         "work_type": parse_element_text(locos_element, 'workType', data_type=int),
         "zlid": parse_element_text(locos_element, 'zlid', data_type=int)
     }
-    insert_into_table(cur, 'locos', locos_data)
+    insert_into_table(cur, 'apvo2_locos', locos_data)
 
 def process_works(cur, works_element, response_id):
     works_data = {
@@ -134,7 +134,7 @@ def process_works(cur, works_element, response_id):
         "work_id": parse_element_text(works_element, 'work_id', data_type=int),
         "work_name": parse_element_text(works_element, 'work_name')
     }
-    insert_into_table(cur, 'works', works_data)
+    insert_into_table(cur, 'apvo2_works', works_data)
 
 def process_techs(cur, techs_element, response_id):
     techs_data = {
@@ -150,4 +150,4 @@ def process_techs(cur, techs_element, response_id):
         "type_tech_name": parse_element_text(techs_element, 'type_tech_name'),
         "work_id": parse_element_text(techs_element, 'work_id', data_type=int)
     }
-    insert_into_table(cur, 'techs', techs_data)
+    insert_into_table(cur, 'apvo2_techs', techs_data)
